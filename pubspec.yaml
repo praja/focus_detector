@@ -9,7 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  visibility_detector: ^0.4.0+2
+  visibility_detector:
+    git:
+      url: https://github.com/praja/visibility_detector.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
